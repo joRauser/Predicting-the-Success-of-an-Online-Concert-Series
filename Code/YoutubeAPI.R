@@ -136,5 +136,3 @@ vidStats <- inner_join(vidStats_df, follower_df%>%select(id, artistFollower), by
 
 ### Save dataset for Backup (optional) ###
 export(vidStats, "Youtube VideoData.csv")
-
-#vidTest <- import("Youtube VideoData.csv", format = "csv")
