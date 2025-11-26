@@ -1,7 +1,7 @@
 # initally composition: 
 follower_df <- vidStats_df
 
-### To not retrieve every Follower again, but only those for new observations, 
+### To not retrieve similar Followernumbers multiple times, but only those for new observations, 
 # use "anti_join" and detect missing IDs by synchronizing the datasets
 # New observations then get added to the follower_df (optional)###
 
